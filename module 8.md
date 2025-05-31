@@ -17,7 +17,7 @@ Algorithm:
 
 
 Program:
-
+```
 #include<stdio.h>
 #include<ctype.h>
 int main ()
@@ -51,7 +51,7 @@ int main ()
         printf("%d ",arr[j]);
     }
 }
-
+```
 Output:
 
 ![image](https://github.com/user-attachments/assets/d53efe45-9549-4516-998a-ed3163fc50f2)
@@ -76,7 +76,7 @@ Algorithm:
 
    
 Program:
-
+```
 #include <stdio.h>
 int main() {
     int freq[10] = {0}; 
@@ -97,7 +97,7 @@ int main() {
 
     return 0;
 }
-
+```
 Output:
 
  ![image](https://github.com/user-attachments/assets/4ac6b349-b891-44b4-b819-95a45370957f)
@@ -119,7 +119,7 @@ Algorithm:
 6.	Memory Deallocation Free the memory allocated for each string in s Free the memory allocated for s
 7.	End
 Program:
-
+```
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
@@ -177,7 +177,7 @@ int main ()
     return 0;
 }
 
-
+```
 Output:
 
 ![image](https://github.com/user-attachments/assets/0ccde1e6-592c-4bf2-ae25-be091c87ec27)
@@ -201,7 +201,7 @@ C PROGRAM PRINT A PATTERN OF NUMBERS FROM 1 TO N AS SHOWN BELOW. Aim: To write a
 6.	Calculate min as the minimum distance to the borders
 7.	End
 Program:
-
+```
 #include<stdio.h>
 int main ()
 {
@@ -219,7 +219,7 @@ int main ()
         printf("\n");
     }
 }
-
+```
 Output:
 
 ![image](https://github.com/user-attachments/assets/e8eb4b14-53da-4271-ae66-304ecbbccf40)
@@ -242,7 +242,7 @@ Algorithm:
 4.	In the main function: o Call the square() function and display the result.
 5.	End.
 Program:
-
+```
 #include <stdio.h>
 int square() {
     int num;
@@ -259,7 +259,7 @@ int main() {
 
     return 0;
 }
-
+```
 Output:
 
 ![image](https://github.com/user-attachments/assets/b45cf0a8-c953-4e98-bae6-53133aa75eb6)
