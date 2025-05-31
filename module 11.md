@@ -8,7 +8,7 @@ Algorithm:
 4.	Use scanf to take four integers as input.
 5.	Call the max_of_four function with the input integers and store the result in the greater variable
 Program:
-
+```
 #include<stdio.h>
 int max_of_four(int a,int b,int c,int d)
 {
@@ -24,7 +24,7 @@ int main ()
     int max=max_of_four(a,b,c,d);
     printf("%d",max);
 }
-
+```
 Output
 
 ![image](https://github.com/user-attachments/assets/ef931ffd-bf48-4b68-a973-7972313fd7c5)
@@ -45,7 +45,7 @@ Algorithm:
 6.	Use scanf to take two integers as input.
 7.	Call the calculate_the_max function with input values.
 Program:
-
+```
 #include<stdio.h>
 int main()
 {
@@ -88,7 +88,7 @@ int main()
     printf("%d\n",max_or);
     printf("%d",max_xor);
 }
-
+```
 Output: 
 
  ![image](https://github.com/user-attachments/assets/2cd7bbab-8c01-483a-b899-0b368b864338)
@@ -106,7 +106,7 @@ Algorithm:
 4.	Declare variables k and c to keep track of the book index and the total number of books.
 5.	Use a for loop to iterate over the queries.
 Program:
-
+```
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -149,7 +149,7 @@ int main() {
     
     return 0;
 }
-
+```
 Output:
 
  ![image](https://github.com/user-attachments/assets/5fb0b684-71c5-4715-aeb7-69c8b9829c3a)
@@ -170,7 +170,7 @@ Algorithm:
 6.	Use scanf to input each integer and add it to the sum.
 7.	Print the final sum using printf.
 Program:
-
+```
 #include<stdio.h>
 int main ()
 {
@@ -185,7 +185,7 @@ int main ()
     }
     printf("%d",sum);
 }
-
+```
 Output: 
 
  ![image](https://github.com/user-attachments/assets/dc8caef2-2be2-4ff0-b6b0-c89ff38cc1ce)
@@ -205,7 +205,7 @@ Algorithm:
 4.	Handle spaces and punctuation: Skip over spaces, punctuation marks, and consider each word as a sequence of characters separated by spaces.
 5.	Display the result: After processing the sentence, output the total word count.
 Program:
-
+```
 #include <stdio.h>
 #include <ctype.h>
 
@@ -234,7 +234,7 @@ int main()
 
     return 0;
 }
-
+```
 Output: 
 
  ![image](https://github.com/user-attachments/assets/efc7a3d8-f00b-4164-87fc-a315f75ba918)
