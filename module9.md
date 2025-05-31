@@ -9,7 +9,7 @@ Aim: To write a C program to display stack elements using an array. Algorithm:
 7.	Use the display function to visualize the stack's contents
 
 Program:
-
+```
 float stack[100];
  int top=-1;
  void display() 
@@ -19,7 +19,7 @@ float stack[100];
         printf("%.1f ",stack[i]); 
     } 
 }
-
+```
 Output: 
 
 ![image](https://github.com/user-attachments/assets/b5ab2430-f28b-4be9-a6d5-d76210055078)
@@ -37,7 +37,7 @@ PROGRAM TO PUSH THE GIVEN ELEMENT IN TO A STACK USING ARRAY. Aim: To create a C 
 4.	Call the push function as needed. 
 
 Program: 
-
+```
 char stack[100];
 int size=3,top=-1,i;
 void push (char data) 
@@ -51,7 +51,7 @@ void push (char data)
     top=top+1;     stack[top]=data; 
     } 
 }
-
+```
 Output: 
 
 ![image](https://github.com/user-attachments/assets/919b4196-354d-493c-931f-f984812a5dcf)
@@ -68,7 +68,7 @@ C PROGRAM TO DISPLAY QUEUE ELEMENTS USING ARRAY. Aim: To write a C program to di
 4.	Call the display function and perform other queue operations as needed. 
  
 Program: 
-
+```
 int queue[50], rear=-1, front=-1;
 void display() 
 { 
@@ -84,7 +84,7 @@ void display()
         } 
     } 
 }
-
+```
 Output: 
 
 ![image](https://github.com/user-attachments/assets/f2842378-6ad5-45eb-9268-a2ba2e98b456)
@@ -102,7 +102,7 @@ Algorithm:
 3.	Initialize the rear, front, and size of the queue as needed. 
 4.	Call the enqueue function as needed. 
 Program:
-
+```
 int rear,front;
 int queue[50];
 void enqueue(int data) 
@@ -117,7 +117,7 @@ void enqueue(int data)
     } 
     queue[rear]=data; 
 }
-
+```
 Output: 
 
 ![image](https://github.com/user-attachments/assets/ed27ca6b-6fc2-426d-88b2-d92147212a12)
@@ -136,13 +136,13 @@ Algorithm:
 3.	Check if the Queue Becomes Empty After Deletion: o After deletion, check if the front pointer has passed the rear pointer (front > rear). If this is true, reset both front and rear to -1, indicating that the queue is now empty. 
 4.	End the Function. 
 Program:
-
+```
 int front, rear;
  void dequeue()
 { 
     front=front+1; 
 }
-
+```
 Output: 
 
   ![image](https://github.com/user-attachments/assets/3609bd7a-c65c-4409-b1ac-1d4391ec05dc)
