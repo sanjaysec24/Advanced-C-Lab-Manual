@@ -15,7 +15,7 @@ Else
 6.	Return 0
  
 Program:
-
+```
 #include <stdio.h>
 struct Person
 {
@@ -58,7 +58,7 @@ int main()
     checkEligibility(people, n);
 
     return 0;
-
+```
 Output:
 
 
@@ -85,7 +85,7 @@ Algorithm:
 7.	Return 0
  
 Program:
-
+```
 #include<stdio.h>
 struct number
 {
@@ -111,7 +111,7 @@ int main()
   printf("%d",result.add);
   return 0;
 }
-
+```
 Output:
 
 ![image](https://github.com/user-attachments/assets/f4be3a7a-fe8b-442b-b4da-25dce990bc90)
@@ -146,7 +146,7 @@ Use scanf to input the file name into the name array.
 5.	Return 0 to indicate successful program execution.
  
 Program:
-
+```
 #include <stdio.h>
 int main ()
 {
@@ -162,7 +162,7 @@ int main ()
     fclose(ptr);
     printf("%s File Closed",str);
 }
-
+```
 Output:
 
 
@@ -196,7 +196,7 @@ Use scanf to input the file name into the name array and the number of strings i
 5.	Return 0 to indicate successful program execution.
  
 Program:
-
+```
 #include <stdio.h>
 int main ()
 {
@@ -216,7 +216,7 @@ int main ()
     fclose(ptr);
 }
 
-
+```
 Output:
 
 
@@ -262,7 +262,7 @@ Algorithm:
 13.End the program by returning 0.
 
 Program:
-
+```
 #include <stdio.h>
 #include <stdlib.h>
 struct Subject 
@@ -298,7 +298,7 @@ int main()
     return 0;
 }
 
-
+```
 Output:
 
 ![image](https://github.com/user-attachments/assets/70d97d72-b281-4ad8-b369-c7059080c4c2)
