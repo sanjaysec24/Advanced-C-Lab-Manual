@@ -14,7 +14,7 @@ Algorithm:
 7.	Move to the next node using the next pointer.
    
 Program:
-
+```
 struct Node   
 {  
 char data[100];  
@@ -29,7 +29,7 @@ void display()
         ptr=ptr->next;
     }
 }
-
+```
 Output:
 
 
@@ -53,7 +53,7 @@ Algorithm:
 4.	Set head to point to the next node in the stack.
    
 Program:
-
+```
 struct Node   
 {  
 char data[100];  
@@ -73,7 +73,7 @@ void pop()
         ptr=NULL;
     }
 }
-
+```
 Output:
 
 
@@ -97,7 +97,7 @@ Aim: To write a C program to display queue elements using linked list.
 4.	Update front to point to the next node.
 5.	End the display function.
 Program:
-
+```
 struct Node
 {
    char data;
@@ -118,7 +118,7 @@ void display()
         ptr=ptr->next;
     }
 }
-
+```
 Output:
 
 
@@ -143,7 +143,7 @@ Algorithm:
 6.	End of Enqueue Operation
    
 Program:
-
+```
 struct Node
 {
    int data;
@@ -163,7 +163,7 @@ void enqueue(int data)
         rear->next=ptr;
         rear=ptr;
     }
-
+```
 Output:
 
 
@@ -185,7 +185,7 @@ Algorithm:
 1.	Check if the queue is empty: o If the queue is empty (i.e., the front pointer is NULL), return an error or a message indicating that the queue is empty.
 2.	Access the front element: o If the queue is not empty, return the data stored in the front node of the linked list (i.e., the element at the head of the queue).
 Program:
-
+```
 struct Node
 {
    float data;
@@ -197,7 +197,7 @@ void peek()
     printf("%.2f",ptr->data);
     ptr=ptr->next;
 }
-
+```
 Output:
 
 
